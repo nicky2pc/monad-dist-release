@@ -1,0 +1,104 @@
+.transactions {
+  margin: 20px auto;
+  padding: 0 12px 50px 12px;
+}
+
+.transactions .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.transactions h2 {
+  font-size: 32px;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(90deg, #7663e0, #9489fcc4);
+  -webkit-background-clip: text;
+  background-clip: text;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.transactions-table {
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
+  color: #07192e;
+  font-weight: 500;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  font-size: 12px;
+}
+
+.transactions-table th,
+.transactions-table td {
+  padding: 12px;
+  text-align: left;
+  max-width: 604px;
+}
+.table-wrapper {
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.transactions-table th {
+  background-color: #fbfaf9;
+  font-weight: bold;
+  color:#07192e;
+}
+tr {
+  background-color: #fbfaf9;
+  color: #07192e;
+}
+.transactions-table a {
+  color: #8f54fd;
+  text-decoration: none;
+  font-weight: bold;
+}
+.transactions-table a:hover {
+  text-decoration: underline;
+}
+
+.transactions-table th {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.transactions-table tr[datatype="Kill"] {
+  background: rgba(0, 255, 0, 0.05);
+}
+
+.transactions-table tr[datatype="Death"] {
+  background: rgba(132, 0, 255, 0.05);
+}
+
+.transactions-table tr[datatype="Mint"] {
+  background:rgba(255, 145, 0, 0.25);
+}
+
+
+.transactions-table tr[datatype="Faucet"] {
+  background: rgba(255, 238, 0, 0.2);
+}
+
+.transactions-table th,
+.transactions-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.clear-btn {
+  background-color: #7663e0;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all ease-in-out 0.2s;
+}
+
+.clear-btn:hover {
+  background-color: #9483f0;
+}

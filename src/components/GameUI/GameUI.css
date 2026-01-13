@@ -1,0 +1,122 @@
+.game-ui-list {
+  position: absolute;
+  top: 10px;
+  left: -120px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.game-ui {
+  color: white;
+  font-family: Arial, sans-serif;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 8px 12px;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.game-ui-list-bottom {
+  position: absolute;
+  top: 10px;
+  right: -230px;
+  left: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.ui-counter {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.counter-label {
+  font-weight: bold;
+}
+
+.counter WAS-value {
+  color: #6e54ff;
+  font-size: 1.2em;
+}
+
+/* Медиа-запрос для мобильных устройств */
+@media (max-width: 768px) {
+  .game-ui-list {
+    left: 10px;
+    top: 10px;
+  }
+
+  .game-ui-list-bottom {
+    right: 10px;
+    bottom: 10px;
+    top: auto;
+  }
+
+  .game-ui {
+    padding: 4px 8px;
+    font-size: 0.9em;
+  }
+
+  .ui-counter {
+    gap: 4px;
+  }
+}
+
+/* ===== Header Controls ===== */
+
+.volume-control,
+.stop-control {
+  position: fixed;
+  top: 10px;
+  z-index: 1000;
+}
+
+.volume-control {
+  right: 160px; /* сдвиг от правого края, подогнать при необходимости */
+}
+
+.stop-control {
+  right: 10px;
+}
+
+.volume-control button,
+.stop-control button {
+  position: absolute;
+  top:10px;
+  padding: 8px 12px;
+  border-radius: 32px;
+  background: rgba(0, 0, 0, 0.3);
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #fff;
+}
+
+.volume-control input[type="range"] {
+  width: 140px;
+  accent-color: #6e54ff;
+}
+
+.sound-setting {
+  position: fixed;
+  left: 10px;
+  top: -28px;
+}
+
+.exit-setting {
+  position: fixed;
+  right: 10px;
+  top: -30px;
+}
+
+.kills-counter {
+  position: fixed;
+  left: 30px;
+  top: 50px;
+}

@@ -1,0 +1,36 @@
+{
+  "frame": {
+    "version": "1",
+    "name": "MNGANMLS Test",
+    "homeUrl": "https://monad-mobile-phi.vercel.app/",
+    "description": "Shoot em all in this exciting game on the Monad testnet!",
+    "subtitle": "Be the best.",
+    "primaryCategory": "games",
+    "tags": [
+      "game",
+      "shooter",
+      "monad",
+      "testnet",
+      "gayanimals"
+    ],
+    "buttonTitle": "Play!",
+    "splashImageUrl": "https://monad-mobile-phi.vercel.app/android-chrome-512x512.png",
+    "splashBackgroundColor": "#8366eb",
+    "heroImageUrl": "https://monad-mobile-phi.vercel.app/bg.jpg",
+    "iconUrl": "https://monad-mobile-phi.vercel.app/android-chrome-512x512.png",
+    "imageUrl": "https://monad-mobile-phi.vercel.app/logo_2.png",
+    "ogTitle": "MGMGMG Test",
+    "ogDescription": "Shoot em all in this exciting game on the Monad testnet!",
+    "ogImageUrl": "https://monad-mobile-phi.vercel.app/bg.jpg",
+    "button": {
+      "title": "Play!",
+      "action": {
+        "type": "launch_frame",
+        "name": "MGMGMG Test",
+        "url": "https://monad-mobile-phi.vercel.app/",
+        "splashImageUrl": "https://monad-mobile-phi.vercel.app/splash-image.png",
+        "splashBackgroundColor": "#7663e0"
+      }
+    }
+  }
+}

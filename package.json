@@ -1,0 +1,62 @@
+{
+  "name": "tanks",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@farcaster/auth-client": "^0.3.0",
+    "@farcaster/auth-kit": "^0.7.0",
+    "@farcaster/frame-node": "^0.0.22",
+    "@farcaster/frame-sdk": "latest",
+    "@farcaster/frame-wagmi-connector": "latest",
+    "@farcaster/miniapp-wagmi-connector": "latest",
+    "@privy-io/react-auth": "^2.6.0",
+    "@tanstack/react-query": "^5.45.1",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@wagmi/core": "^2.17.1",
+    "ethers": "^6.13.5",
+    "nipplejs": "^0.10.2",
+    "react": "^18.3.1",
+    "react-device-detect": "^2.2.3",
+    "react-dom": "^18.3.1",
+    "vconsole": "^3.15.1",
+    "viem": "latest",
+    "wagmi": "latest",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.46",
+    "@types/react": "^18.3.21",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.4.1",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.0.4",
+    "vite": "^6.0.0"
+  }
+}
