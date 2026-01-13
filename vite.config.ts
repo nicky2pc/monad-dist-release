@@ -11,14 +11,14 @@ function fcFrameMeta(): Plugin {
     transformIndexHtml(html: string) {
       const config = {
         version: 'next',
-        imageUrl: 'https://monad-mobile-phi.vercel.app/logo_2.png',
+        imageUrl: 'http://monad-dist-release.vercel.app/logo_2.png',
         button: {
           title: 'Play!',
           action: {
             type: 'launch_frame',
             name: 'Monagayanimals',
-            url: `https://monad-mobile-phi.vercel.app/?v=${appVersion}`, 
-            splashImageUrl: 'https://monad-mobile-phi.vercel.app/logo_2.png',
+            url: `http://monad-dist-release.vercel.app/?v=${appVersion}`, 
+            splashImageUrl: 'http://monad-dist-release.vercel.app/logo_2.png',
             splashBackgroundColor: '#8366eb',
           },
         },
